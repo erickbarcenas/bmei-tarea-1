@@ -1,0 +1,23 @@
+nodes are stored here
+
+
+util commands
+rosnode info /
+rosnode info /robot_comm
+
+
+rostopic list
+
+
+
+# 1. make node executable
+chmod +x action_pub.py
+
+# 2. compile the whole folder
+
+cd /home/ibarcenas/rosdev/bmei-tarea-1
+catkin_make
+
+# 3. run node
+roscore
+rosrun robot_comm action_pub.py

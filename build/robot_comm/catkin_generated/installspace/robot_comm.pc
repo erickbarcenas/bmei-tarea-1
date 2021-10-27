@@ -1,0 +1,8 @@
+prefix=/home/ibarcenas/rosdev/bmei-tarea-1/install
+
+Name: robot_comm
+Description: Description of robot_comm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
