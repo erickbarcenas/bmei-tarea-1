@@ -11,7 +11,7 @@ rostopic list
 
 
 # 1. make node executable
-chmod +x action_pub.py
+chmod +x pub_sub.py
 
 # 2. compile the whole folder
 
@@ -19,5 +19,7 @@ cd /home/ibarcenas/rosdev/bmei-tarea-1
 catkin_make
 
 # 3. run node
+
 roscore
-rosrun robot_comm action_pub.py
+roslaunch robot_comm pub_sub.launch
+rosrun robot_comm pub_sub.py

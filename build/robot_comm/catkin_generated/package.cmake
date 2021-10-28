@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "robot_comm")
 set(robot_comm_VERSION "0.0.0")
-set(robot_comm_MAINTAINER "ibarcenas <barcenas.dev@gmail.com>")
+set(robot_comm_MAINTAINER "Bárcenas Martínez Erick Iván <barcenas.dev@gmail.com>")
 set(robot_comm_PACKAGE_FORMAT "2")
 set(robot_comm_BUILD_DEPENDS "rospy" "std_msgs")
 set(robot_comm_BUILD_EXPORT_DEPENDS "rospy" "std_msgs")
